@@ -1,0 +1,13 @@
+#main {
+  grid-area: 2 / 2 / -1 / 11;
+  width: 100%;
+}
+
+.button {
+  cursor: pointer;
+  padding: 1em 2rem;
+  font-size: 2rem;
+  color: $white;
+  background-color: $green;
+  border: none;
+}

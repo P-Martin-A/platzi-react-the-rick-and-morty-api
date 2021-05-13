@@ -1,0 +1,36 @@
+:root {
+  --black: #001d0f;
+  --white: #e2fff0;
+  --green: #37c583;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+html body {
+  overflow-x: hidden;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+html body ul li {
+  list-style: none;
+}
+
+html body a {
+  text-decoration: none;
+}
+
+html body #root {
+  display: grid;
+  grid-template-rows: 200px auto;
+  grid-template-columns: repeat(11, 1fr);
+}
+

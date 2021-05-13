@@ -1,0 +1,28 @@
+.list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list__item {
+  position: relative;
+  margin: 2rem;
+}    
+
+.item__image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.item__title {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: rgba(0, 29, 15, 0.5);
+}

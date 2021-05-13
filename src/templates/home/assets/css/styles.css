@@ -1,0 +1,7 @@
+/* LAYOUTS */
+@import url('./layout/header.css');
+@import url('./layout/main.css');
+
+/* COMPONENTS */
+@import url('./components/cards.css');
+@import url('./components/card.css');
